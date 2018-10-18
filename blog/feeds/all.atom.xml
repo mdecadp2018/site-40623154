@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623154/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623154/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623154/blog/</id><updated>2018-09-28T09:00:00+08:00</updated><entry><title>Week3</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-3.html" rel="alternate"></link><published>2018-09-28T09:00:00+08:00</published><updated>2018-09-28T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-09-28:/site-40623154/blog/2018-FallProject-3.html</id><summary type="html">&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;重新整理倉儲&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;學習如何使用Onshape&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</summary><content type="html">&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;重新整理倉儲&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;學習如何使用Onshape&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content><category term="2018Fall"></category></entry><entry><title>Week2</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-2.html" rel="alternate"></link><published>2018-09-21T09:00:00+08:00</published><updated>2018-09-21T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-09-21:/site-40623154/blog/2018-FallProject-2.html</id><summary type="html">&lt;p&gt;學習如何使用ShapeX、開啟部落格論壇&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623154/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623154/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623154/blog/</id><updated>2018-10-05T09:00:00+08:00</updated><entry><title>Week3</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-4.html" rel="alternate"></link><published>2018-10-05T09:00:00+08:00</published><updated>2018-10-05T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-10-05:/site-40623154/blog/2018-FallProject-4.html</id><summary type="html">&lt;p&gt;學習onshape基本用法&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;學習onshape基本用法&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;navigating 瀏覽&lt;/li&gt;
+&lt;li&gt;sketch 草圖&lt;/li&gt;
+&lt;li&gt;extrude 擠出&lt;/li&gt;
+&lt;li&gt;revolve 旋轉&lt;/li&gt;
+&lt;li&gt;sweep 掃描&lt;/li&gt;
+&lt;li&gt;loaf 和斷面混成&lt;/li&gt;
+&lt;li&gt;shell 薄殼&lt;/li&gt;
+&lt;li&gt;isometric 等角視&lt;/li&gt;
+&lt;li&gt;construction 建構線&lt;/li&gt;
+&lt;li&gt;keyboard shotcuts 鍵盤快捷鍵&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;
+&lt;p&gt;英文版的繪圖軟體, 雖然草圖工具與特徵都有圖案輔助畫起來不太困難, 但碰到英文單字, 利用這個網站https://www.merriam-webster.com/ 從各單字的英英字典查詢中, 找出用來解釋這些單字的相關單字, 不但能用較簡單的英文來了解, 還可以提升自己英文.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week3</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-3.html" rel="alternate"></link><published>2018-09-28T09:00:00+08:00</published><updated>2018-09-28T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-09-28:/site-40623154/blog/2018-FallProject-3.html</id><summary type="html">&lt;p&gt;學習如何使用onshape&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;學習如何使用onshape&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Creat Document→Document name&lt;/li&gt;
+&lt;li&gt;Sketch新建草圖&lt;/li&gt;
+&lt;li&gt;建立完草圖後, Extrude擠出Blind輸入尺寸&lt;/li&gt;
+&lt;li&gt;若要對稱雙向擠出選擇Symmetric&lt;/li&gt;
+&lt;li&gt;除料選擇Remove Blind輸入尺寸, 若要貫穿除料選擇Through All&lt;/li&gt;
+&lt;li&gt;Isometric 完成零件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;
+&lt;p&gt;這週上課隨身碟插入電腦時發現隨身碟中毒, 不幸的是裡面的檔案都沒了, 幸好的是上課的內容可以再從雲端git clone下來, 從這件隨身碟中毒的事情知道我們這門課所學的知識與科技, 會了這個以後就不必擔心檔案會不見.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week2</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-2.html" rel="alternate"></link><published>2018-09-21T09:00:00+08:00</published><updated>2018-09-21T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-09-21:/site-40623154/blog/2018-FallProject-2.html</id><summary type="html">&lt;p&gt;學習如何使用ShapeX、開啟部落格論壇&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;學習如何使用ShapeX、開啟部落格論壇&lt;/p&gt;
 
 

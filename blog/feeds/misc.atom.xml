@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623154/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623154/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623154/blog/</id><updated>2018-10-12T09:00:00+08:00</updated><entry><title>Week5</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-5.html" rel="alternate"></link><published>2018-10-12T09:00:00+08:00</published><updated>2018-10-12T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-10-12:/site-40623154/blog/2018-FallProject-5.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623154/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623154/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623154/blog/</id><updated>2018-11-02T09:00:00+08:00</updated><entry><title>Week8</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-8.html" rel="alternate"></link><published>2018-11-02T09:00:00+08:00</published><updated>2018-11-02T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-11-02:/site-40623154/blog/2018-FallProject-8.html</id><summary type="html">&lt;p&gt;如何更改網路設置&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;如何更改網路設置&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;</content><category term="2018Fall"></category></entry><entry><title>Week7</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-7.html" rel="alternate"></link><published>2018-10-26T09:00:00+08:00</published><updated>2018-10-26T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-10-26:/site-40623154/blog/2018-FallProject-7.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;p&gt;更改網路設置
+控制台→網路與網際網路→乙太網路2→變更介面卡選項→內容→網際網路通訊協定第四版(IPv4) : 140.130.17.3
+　　　　　                     140.130.1.2
+網際網路通訊協定第六版(IPv6) : 2001:288:6004:17::3  系
+2001:288:6004:1::2    校
+ 2001:6000:168::1      hinet&lt;/p&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;</content><category term="2018Fall"></category></entry><entry><title>Week6</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-6.html" rel="alternate"></link><published>2018-10-19T09:00:00+08:00</published><updated>2018-10-19T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-10-19:/site-40623154/blog/2018-FallProject-6.html</id><summary type="html">&lt;p&gt;動態網頁使用過程出現問題之處理方法&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;動態網頁使用過程出現問題之處理方法&lt;/p&gt;
+
+
+&lt;h2&gt;課程內容&lt;/h2&gt;
+&lt;p&gt;使用CMsimfly過程中, 因為程式功能不足所以會遇到無法解讀config/content.htm, 應更新程式碼或者回報問題流程
+1. 更新程式碼
+   (1) 啟動https://localhost8443動態網頁
+   (2) 資料放在config/content.htm
+   (3) 網頁出問題時可能是程式功能不足系統無法解決問題, 所以要更新版本
+   (4) 升級flaskapp.py試著用同樣程式處理
+   (5) 升級時記得content.htm要停留在某一個版本
+2. 回報問題
+   依以上程序操作, 如果還是無法解決問題, 從課程issues回報問題&lt;/p&gt;
+&lt;h2&gt;課程心得&lt;/h2&gt;
+&lt;p&gt;經過一次的經驗和學習, 下次如再遇到相同的問題就知道如何處理, 因較新的版本比較不會有問題產生, 所以遇到問題時要記得升級flaskapp.py .&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week5</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-5.html" rel="alternate"></link><published>2018-10-12T09:00:00+08:00</published><updated>2018-10-12T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-10-12:/site-40623154/blog/2018-FallProject-5.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h2&gt;課程內容&lt;/h2&gt;</content><category term="2018Fall"></category></entry><entry><title>Week4</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-4.html" rel="alternate"></link><published>2018-10-05T09:00:00+08:00</published><updated>2018-10-05T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-10-05:/site-40623154/blog/2018-FallProject-4.html</id><summary type="html">&lt;p&gt;學習onshape基本用法&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;學習onshape基本用法&lt;/p&gt;
@@ -19,7 +47,7 @@
 &lt;li&gt;keyboard shotcuts 鍵盤快捷鍵&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;課程心得&lt;/h2&gt;
-&lt;p&gt;英文版的繪圖軟體, 雖然草圖工具與特徵都有圖案輔助畫起來不太困難, 但碰到英文單字, 利用這個網站https://www.merriam-webster.com/ 從各單字的英英字典查詢中, 找出用來解釋這些單字的相關單字, 不但能用較簡單的英文來了解, 還可以提升自己英文.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week3</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-3.html" rel="alternate"></link><published>2018-09-28T09:00:00+08:00</published><updated>2018-09-28T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-09-28:/site-40623154/blog/2018-FallProject-3.html</id><summary type="html">&lt;p&gt;學習如何使用onshape&lt;/p&gt;
+&lt;p&gt;英文版的繪圖軟體, 雖然草圖工具與特徵都有圖案輔助畫起來不太困難, 但碰到英文單字, 利用這個網站https://www.merriam-webster.com/ 從各單字的英英字典查詢中, 找出用來解釋這些單字的相關單字, 不但能用較簡單的英文來了解, 還可以提升自己英文能力.&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week3</title><link href="https://mdecadp2018.github.io/site-40623154/blog/2018-FallProject-3.html" rel="alternate"></link><published>2018-09-28T09:00:00+08:00</published><updated>2018-09-28T09:00:00+08:00</updated><author><name>40623154</name></author><id>tag:mdecadp2018.github.io,2018-09-28:/site-40623154/blog/2018-FallProject-3.html</id><summary type="html">&lt;p&gt;學習如何使用onshape&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;學習如何使用onshape&lt;/p&gt;
 
 

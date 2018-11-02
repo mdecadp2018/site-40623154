@@ -30,7 +30,7 @@
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -49,7 +49,7 @@
 <v t="leo.20181103001310.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103001354.1" a="E"><vh>week2</vh>
+<v t="leo.20181103001354.1"><vh>week2</vh>
 <v t="leo.20181103001401.1" a="E"><vh>開啟部落格論壇</vh>
 <v t="leo.20181103001725.1"><vh>newHeadline</vh></v>
 </v>
@@ -59,12 +59,12 @@
 <v t="leo.20181103002535.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103002715.1" a="E"><vh>week4</vh>
+<v t="leo.20181103002715.1"><vh>week4</vh>
 <v t="leo.20181103002721.1" a="E"><vh>學習onshape基本用法</vh>
 <v t="leo.20181103002753.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103002842.1" a="E"><vh>week5</vh>
+<v t="leo.20181103002842.1"><vh>week5</vh>
 <v t="leo.20181103002852.1" a="E"><vh>學習Onshape基本用法</vh>
 <v t="leo.20181103002914.1"><vh>newHeadline</vh></v>
 </v>
@@ -82,8 +82,8 @@
 <v t="leo.20181103003715.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103004021.1" a="E"><vh>week8</vh>
-<v t="leo.20181103004037.1" a="E"><vh>學習Onshape基本用法</vh>
+<v t="leo.20181103004021.1"><vh>week8</vh>
+<v t="leo.20181103004037.1"><vh>學習Onshape基本用法</vh>
 <v t="leo.20181103004053.1"><vh>newHeadline</vh></v>
 </v>
 </v>
@@ -540,9 +540,9 @@ make.start()
 
 * 使用CMsimfly過程中, 因為程式功能不足所以會遇到無法解讀config/content.htm, 應更新程式碼或者回報問題流程
 *  1. 更新程式碼
- * 啟動https://localhost8443動態網頁
- * 資料放在config/content.htm
- *  網頁出問題時可能是程式功能不足系統無法解決問題, 所以要更新版本
+* 啟動https://localhost8443動態網頁
+* 資料放在config/content.htm
+* 網頁出問題時可能是程式功能不足系統無法解決問題, 所以要更新版本
 </t>
 <t tx="leo.20181103003521.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -556,10 +556,10 @@ make.start()
 						
 </t>
 <t tx="leo.20181103003530.1">
- * 升級flaskapp.py試著用同樣程式處理
- * 升級時記得content.htm要停留在某一個版本
- * 2. 回報問題
- * 依以上程序操作, 如果還是無法解決問題, 從課程issues回報問題
+* 升級flaskapp.py試著用同樣程式處理
+* 升級時記得content.htm要停留在某一個版本
+*  2. 回報問題
+* 依以上程序操作, 如果還是無法解決問題, 從課程issues回報問題
 
 </t>
 <t tx="leo.20181103003628.1">&lt;section&gt;
@@ -609,8 +609,7 @@ make.start()
 * 做擺圖, 標尺寸, 公差, 註解等等
 * 設計零件的排版格式
 
-&lt;img src="./../images/p37_11-01-15.png" height="560" width="315"&gt;&lt;/img&gt;
-
+&lt;img src="./../images/_p37_11-01-15_resized.png"&gt;&lt;/img&gt;
 </t>
 </tnodes>
 </leo_file>

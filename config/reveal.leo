@@ -332,15 +332,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181102221006.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+<t tx="leo.20181102221006.1">&lt;section&gt;
 @others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
+&lt;/section&gt;</t>
 <t tx="leo.20181102221006.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others

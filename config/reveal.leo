@@ -41,7 +41,7 @@
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20181102234540.1"><vh>week1</vh>
+<v t="leo.20181102234540.1" a="E"><vh>week1</vh>
 <v t="leo.20181102234704.1" a="E"><vh>管理個人的期中作業網站內容</vh>
 <v t="leo.20181103001148.1"><vh>newHeadline</vh></v>
 </v>
@@ -413,7 +413,9 @@ make.start()
 * 在近端啟動倉儲python wsgi.py顯示埠號為https://127.0.0.1=8443啟動 CMSimfly 動態網站, 以內定的admin管理者密碼來修改維護.
 * 若要轉成靜態, 點選generate-pages
 * 要提交推送遠端, 利用SciTE執行site倉儲中的http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容
-* 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端</t>
+* 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端
+
+</t>
 <t tx="leo.20181103001354.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -433,7 +435,9 @@ make.start()
 <t tx="leo.20181103001725.1">### 開啟部落格論壇
 
 * 利用leo開啟pelican.leo
-* 因為遠端牽涉到連結,在設定/遠端/@edit publishconf.py修改SITEURL='https://mdecadp2018.github.io/site-40623154/blog' 以及修改課程名稱DISQUS_SITENAME = "mdecadp2018"</t>
+* 因為遠端牽涉到連結,在設定/遠端/@edit publishconf.py修改SITEURL='https://mdecadp2018.github.io/site-40623154/blog' 以及修改課程名稱DISQUS_SITENAME = "mdecadp2018"
+
+</t>
 <t tx="leo.20181103002344.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -555,7 +559,9 @@ make.start()
  * 升級flaskapp.py試著用同樣程式處理
  * 升級時記得content.htm要停留在某一個版本
  * 2. 回報問題
- * 依以上程序操作, 如果還是無法解決問題, 從課程issues回報問題</t>
+ * 依以上程序操作, 如果還是無法解決問題, 從課程issues回報問題
+
+</t>
 <t tx="leo.20181103003628.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -578,7 +584,9 @@ make.start()
 * 網際網路通訊協定第六版(IPv6) :
    2001:288:6004:17::3 系
    2001:288:6004:1::2   校 
-   2001:6000:168::1      hinet</t>
+   2001:6000:168::1      hinet
+
+</t>
 <t tx="leo.20181103004021.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -601,6 +609,8 @@ make.start()
 * 做擺圖, 標尺寸, 公差, 註解等等
 * 設計零件的排版格式
 
-&lt;img src="./../images/p37_11-01-15.png" height="560" width="315"&gt;&lt;/img&gt;</t>
+&lt;img src="./../images/p37_11-01-15.png" height="560" width="315"&gt;&lt;/img&gt;
+
+</t>
 </tnodes>
 </leo_file>

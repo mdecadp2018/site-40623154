@@ -15,19 +15,22 @@
 </v>
 <v t="leo.20180827201621.1" a="E"><vh>編輯 reveal</vh>
 <v t="leo.20180827201621.2" a="E"><vh>@path ./../reveal</vh>
+<v t="leo.20181103002503.1" a="E"><vh>newHeadline</vh>
+<v t="leo.20181103002503.2"><vh>newHeadline</vh></v>
+</v>
 <v t="leo.20180827201621.3" a="E"><vh>@clean index.html</vh>
 <v t="leo.20180827201621.4" a="E"><vh>html</vh>
 <v t="leo.20180827201621.5"><vh>head</vh></v>
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -38,20 +41,50 @@
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20181102234540.1" a="E"><vh>week1</vh>
+<v t="leo.20181102234540.1"><vh>week1</vh>
 <v t="leo.20181102234704.1" a="E"><vh>管理個人的期中作業網站內容</vh>
 <v t="leo.20181103001148.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20181103001254.1"><vh>管理個人的期中作業網站內容</vh>
+<v t="leo.20181103001254.1" a="E"><vh>管理個人的期中作業網站內容</vh>
 <v t="leo.20181103001310.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103001354.1" a="E"><vh>week2</vh>
+<v t="leo.20181103001354.1"><vh>week2</vh>
 <v t="leo.20181103001401.1" a="E"><vh>開啟部落格論壇</vh>
 <v t="leo.20181103001725.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20181103001611.1" a="E"><vh>學習如何使用ShapeX</vh>
-<v t="leo.20181103001732.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20181103002344.1"><vh>week3</vh>
+<v t="leo.20181103002351.1" a="E"><vh>學習如何使用onshape</vh>
+<v t="leo.20181103002535.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20181103002715.1"><vh>week4</vh>
+<v t="leo.20181103002721.1" a="E"><vh>學習onshape基本用法</vh>
+<v t="leo.20181103002753.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20181103002842.1"><vh>week5</vh>
+<v t="leo.20181103002852.1" a="E"><vh>學習Onshape基本用法</vh>
+<v t="leo.20181103002914.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20181103002956.1"><vh>week6</vh>
+<v t="leo.20181103003005.1"><vh>動態網頁使用過程出現問題之處理方法</vh>
+<v t="leo.20181103003139.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20181103003521.1"><vh>動態網頁使用過程出現問題之處理方法</vh>
+<v t="leo.20181103003530.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20181103003628.1"><vh>week7</vh>
+<v t="leo.20181103003638.1"><vh>如何更改網路設置</vh>
+<v t="leo.20181103003715.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20181103004021.1"><vh>week8</vh>
+<v t="leo.20181103004037.1" a="E"><vh>學習Onshape基本用法</vh>
+<v t="leo.20181103004053.1"><vh>newHeadline</vh></v>
 </v>
 </v>
 </v>
@@ -363,10 +396,7 @@ make.start()
 * 登入github連結至 https://classroom.github.com 領取個人期中作業
 * 把倉儲git clone到近端
 * 進入倉儲, 先git branch確認分支, 利用git checkout把內定的master分支切換到gh-pages分支, 再用git branch檢查
-* 在近端啟動倉儲python wsgi.py顯示埠號為https://127.0.0.1=8443啟動 CMSimfly 動態網站, 以內定的admin管理者密碼來修改維護.
-* 若要轉成靜態, 點選generate-pages
-* 要提交推送遠端, 利用SciTE執行site倉儲中的http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容
-* 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端
+
 </t>
 <t tx="leo.20181103001254.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -384,19 +414,12 @@ make.start()
 * 若要轉成靜態, 點選generate-pages
 * 要提交推送遠端, 利用SciTE執行site倉儲中的http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容
 * 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端</t>
-<t tx="leo.20181103001354.1"></t>
-<t tx="leo.20181103001401.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
+<t tx="leo.20181103001354.1">&lt;section&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
 
-
-
-						
 </t>
-<t tx="leo.20181103001611.1">&lt;section data-markdown&gt;
+<t tx="leo.20181103001401.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -411,9 +434,173 @@ make.start()
 
 * 利用leo開啟pelican.leo
 * 因為遠端牽涉到連結,在設定/遠端/@edit publishconf.py修改SITEURL='https://mdecadp2018.github.io/site-40623154/blog' 以及修改課程名稱DISQUS_SITENAME = "mdecadp2018"</t>
-<t tx="leo.20181103001732.1">### 學習如何使用ShapeX
+<t tx="leo.20181103002344.1">&lt;section&gt;
+@others
+&lt;/section&gt;
 
-* 取圖 Ctrl+Print Screen
-* Start/Stop錄影片 Shift+Print Screen 存成MP4</t>
+</t>
+<t tx="leo.20181103002351.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103002503.1"></t>
+<t tx="leo.20181103002503.2"></t>
+<t tx="leo.20181103002535.1">### 學習如何使用onshape
+
+* Creat Document→Document name
+* Sketch新建草圖
+* 建立完草圖後, Extrude擠出Blind輸入尺寸
+* 若要對稱雙向擠出選擇Symmetric
+* 除料選擇Remove Blind輸入尺寸, 若要貫穿除料選擇Through All
+* Isometric 完成零件
+</t>
+<t tx="leo.20181103002715.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181103002721.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103002753.1">### 學習onshape基本用法
+
+* navigating 瀏覽
+* sketch 草圖
+* extrude 擠出
+* revolve 旋轉
+* sweep 掃描
+* loaf 和斷面混成
+* shell 薄殼
+* isometric 等角視
+* construction 建構線
+* keyboard shotcuts 鍵盤快捷鍵
+</t>
+<t tx="leo.20181103002842.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181103002852.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103002914.1">### 學習Onshape基本用法
+
+* entity 獨自存在實體
+* precise 精確的
+* dip 傾斜
+* primarily 首先
+* intent 目的
+* enclose 圍住
+* purposeful 有目的的
+</t>
+<t tx="leo.20181103002956.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181103003005.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103003139.1">### 動態網頁使用過程出現問題之處理方法
+
+* 使用CMsimfly過程中, 因為程式功能不足所以會遇到無法解讀config/content.htm, 應更新程式碼或者回報問題流程
+*  1. 更新程式碼
+ * 啟動https://localhost8443動態網頁
+ * 資料放在config/content.htm
+ *  網頁出問題時可能是程式功能不足系統無法解決問題, 所以要更新版本
+</t>
+<t tx="leo.20181103003521.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103003530.1">
+ * 升級flaskapp.py試著用同樣程式處理
+ * 升級時記得content.htm要停留在某一個版本
+ * 2. 回報問題
+ * 依以上程序操作, 如果還是無法解決問題, 從課程issues回報問題</t>
+<t tx="leo.20181103003628.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181103003638.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103003715.1">### 如何更改網路設置
+
+* 控制台→網路與網際網路→乙太網路2→變更介面卡選項→內容→網際網路通訊協定第四版(IPv4) : 140.130.17.3/140.130.1.2 
+* 網際網路通訊協定第六版(IPv6) :
+   2001:288:6004:17::3 系
+   2001:288:6004:1::2   校 
+   2001:6000:168::1      hinet</t>
+<t tx="leo.20181103004021.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181103004037.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103004053.1">### 學習Onshape基本用法
+
+* 如何使用工程圖
+* 做擺圖, 標尺寸, 公差, 註解等等
+* 設計零件的排版格式
+
+&lt;img src="./../images/p37_11-01-15.png" height="560" width="315"&gt;&lt;/img&gt;</t>
 </tnodes>
 </leo_file>

@@ -39,7 +39,20 @@
 </v>
 </v>
 <v t="leo.20181102234540.1" a="E"><vh>week1</vh>
-<v t="leo.20181102234704.1"><vh>管理個人的期中作業網站內容</vh></v>
+<v t="leo.20181102234704.1" a="E"><vh>管理個人的期中作業網站內容</vh>
+<v t="leo.20181103001148.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20181103001254.1"><vh>管理個人的期中作業網站內容</vh>
+<v t="leo.20181103001310.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20181103001354.1" a="E"><vh>week2</vh>
+<v t="leo.20181103001401.1" a="E"><vh>開啟部落格論壇</vh>
+<v t="leo.20181103001725.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20181103001611.1" a="E"><vh>學習如何使用ShapeX</vh>
+<v t="leo.20181103001732.1"><vh>newHeadline</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -132,10 +145,10 @@ vertical: body pane on the botton</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40623154](http://lab.kmol.info/)
+Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[2018 Fall 40623154網誌](./../blog/index.html)
 
 
 </t>
@@ -329,7 +342,12 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181102234540.1">&lt;section data-markdown&gt;
+<t tx="leo.20181102234540.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181102234704.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -340,7 +358,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181102234704.1">### 管理個人的期中作業網頁內容
+<t tx="leo.20181103001148.1">### 管理個人的期中作業網頁內容
 
 * 登入github連結至 https://classroom.github.com 領取個人期中作業
 * 把倉儲git clone到近端
@@ -350,5 +368,52 @@ make.start()
 * 要提交推送遠端, 利用SciTE執行site倉儲中的http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容
 * 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端
 </t>
+<t tx="leo.20181103001254.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103001310.1">
+* 在近端啟動倉儲python wsgi.py顯示埠號為https://127.0.0.1=8443啟動 CMSimfly 動態網站, 以內定的admin管理者密碼來修改維護.
+* 若要轉成靜態, 點選generate-pages
+* 要提交推送遠端, 利用SciTE執行site倉儲中的http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容
+* 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端</t>
+<t tx="leo.20181103001354.1"></t>
+<t tx="leo.20181103001401.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103001611.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181103001725.1">### 開啟部落格論壇
+
+* 利用leo開啟pelican.leo
+* 因為遠端牽涉到連結,在設定/遠端/@edit publishconf.py修改SITEURL='https://mdecadp2018.github.io/site-40623154/blog' 以及修改課程名稱DISQUS_SITENAME = "mdecadp2018"</t>
+<t tx="leo.20181103001732.1">### 學習如何使用ShapeX
+
+* 取圖 Ctrl+Print Screen
+* Start/Stop錄影片 Shift+Print Screen 存成MP4</t>
 </tnodes>
 </leo_file>

@@ -338,7 +338,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181102234704.1">### 管理個人的期中作業網站內容
+<t tx="leo.20181102234704.1">### 管理個人的期中作業網頁內容
 
 * 登入github連結至 https://classroom.github.com 領取個人期中作業
 * 把倉儲git clone到近端

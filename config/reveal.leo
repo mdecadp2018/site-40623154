@@ -49,40 +49,40 @@
 <v t="leo.20181103001310.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103001354.1"><vh>week2</vh>
+<v t="leo.20181103001354.1" a="E"><vh>week2</vh>
 <v t="leo.20181103001401.1" a="E"><vh>開啟部落格論壇</vh>
 <v t="leo.20181103001725.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103002344.1"><vh>week3</vh>
+<v t="leo.20181103002344.1" a="E"><vh>week3</vh>
 <v t="leo.20181103002351.1" a="E"><vh>學習如何使用onshape</vh>
 <v t="leo.20181103002535.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103002715.1"><vh>week4</vh>
+<v t="leo.20181103002715.1" a="E"><vh>week4</vh>
 <v t="leo.20181103002721.1" a="E"><vh>學習onshape基本用法</vh>
 <v t="leo.20181103002753.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103002842.1"><vh>week5</vh>
+<v t="leo.20181103002842.1" a="E"><vh>week5</vh>
 <v t="leo.20181103002852.1" a="E"><vh>學習Onshape基本用法</vh>
 <v t="leo.20181103002914.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103002956.1"><vh>week6</vh>
-<v t="leo.20181103003005.1"><vh>動態網頁使用過程出現問題之處理方法</vh>
+<v t="leo.20181103002956.1" a="E"><vh>week6</vh>
+<v t="leo.20181103003005.1" a="E"><vh>動態網頁使用過程出現問題之處理方法</vh>
 <v t="leo.20181103003139.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20181103003521.1"><vh>動態網頁使用過程出現問題之處理方法</vh>
+<v t="leo.20181103003521.1" a="E"><vh>動態網頁使用過程出現問題之處理方法</vh>
 <v t="leo.20181103003530.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103003628.1"><vh>week7</vh>
-<v t="leo.20181103003638.1"><vh>如何更改網路設置</vh>
+<v t="leo.20181103003628.1" a="E"><vh>week7</vh>
+<v t="leo.20181103003638.1" a="E"><vh>如何更改網路設置</vh>
 <v t="leo.20181103003715.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20181103004021.1"><vh>week8</vh>
+<v t="leo.20181103004021.1" a="E"><vh>week8</vh>
 <v t="leo.20181103004037.1" a="E"><vh>學習Onshape基本用法</vh>
 <v t="leo.20181103004053.1"><vh>newHeadline</vh></v>
 </v>

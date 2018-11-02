@@ -40,7 +40,8 @@
 </v>
 <v t="leo.20181102221006.1" a="E"><vh>week1</vh>
 <v t="leo.20181102221006.2" a="E"><vh>管理個人的期中作業網站內容</vh>
-<v t="leo.20181102230917.1"><vh>管理個人的期中作業網站內容</vh></v>
+<v t="leo.20181102230917.1"><vh>1-1</vh></v>
+<v t="leo.20181102233022.1"><vh>1-2</vh></v>
 </v>
 </v>
 </v>
@@ -350,7 +351,7 @@ make.start()
 						
 
 </t>
-<t tx="leo.20181102230917.1">## 管理個人的期中作業網站內容
+<t tx="leo.20181102230917.1">#### 管理個人的期中作業網站內容
 
 * 登入github連結至 https://classroom.github.com 領取個人期中作業
 * 把倉儲git clone到近端
@@ -360,5 +361,11 @@ make.start()
 * 要提交推送遠端, 利用SciTE執行site倉儲中的http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容
 * 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端
 </t>
+<t tx="leo.20181102233022.1">####  
+
+* 在近端啟動倉儲python wsgi.py顯示埠號為https://127.0.0.1=8443啟動 CMSimfly 動態網站, 以內定的admin管理者密碼來修改維護.
+* 若要轉成靜態, 點選generate-pages
+* 要提交推送遠端, 利用SciTE執行site倉儲中的http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容
+* 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端</t>
 </tnodes>
 </leo_file>

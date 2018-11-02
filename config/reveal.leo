@@ -356,10 +356,6 @@ make.start()
 * 登入github連結至 https://classroom.github.com 領取個人期中作業
 * 把倉儲git clone到近端
 * 進入倉儲, 先git branch確認分支, 利用git checkout把內定的master分支切換到gh-pages分支, 再用git branch檢查
-* 在近端啟動倉儲python wsgi.py顯示埠號為https://127.0.0.1=8443啟動 CMSimfly 動態網站, 以內定的admin管理者密碼來修改維護.
-* 若要轉成靜態, 點選generate-pages
-* 要提交推送遠端, 利用SciTE執行site倉儲中的http-server.py, 在近端以 https://localhost:8444 檢查靜態網頁的內容
-* 靜態網頁確認後, 再利用git add, git commit, git push 將內容推到遠端
 </t>
 <t tx="leo.20181102233022.1">####  
 

@@ -3,4 +3,4 @@
 
 網站:https://mdecadp2018.github.io/site-40623154
 
-ag4:https://dashboard.heroku.com/apps/cadp2018-ag4/settings
+ag4:https://cadp2018-ag4.herokuapp.com/get_page/Introduction

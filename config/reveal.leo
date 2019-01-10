@@ -24,7 +24,7 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190111010444.1" a="E"><vh>week11-12</vh>
@@ -167,6 +167,10 @@ vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
 
 ### 虎科大機械設計工程系
+
+&lt;middle&gt;
+設計二甲 黃馨慧 40623154
+&lt;/middle&gt;
 
 &lt;small&gt;
 Created by [40623154](http://lab.kmol.info/)

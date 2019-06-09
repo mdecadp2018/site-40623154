@@ -27,41 +27,65 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190609194544.1"><vh>week11-12</vh>
-<v t="leo.20190609194601.1"><vh>newHeadline</vh></v>
-</v>
-<v t="leo.20190609204412.1" a="E"><vh>week13</vh>
-<v t="leo.20190609204423.1" a="E"><vh>week13</vh>
-<v t="leo.20190609204857.1"><vh>01</vh></v>
-</v>
-<v t="leo.20190609204938.1" a="E"><vh>week13</vh>
-<v t="leo.20190609204958.1"><vh>02</vh></v>
-</v>
-<v t="leo.20190609204949.1" a="E"><vh>week13</vh>
-<v t="leo.20190609205009.1"><vh>03</vh></v>
+<v t="leo.20190609194544.1" a="E"><vh>week11</vh>
+<v t="leo.20190609214502.1" a="E"><vh>week11</vh>
+<v t="leo.20190609214516.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20190609211057.1" a="E"><vh>week14</vh>
-<v t="leo.20190609211112.1" a="E"><vh>week14</vh>
+<v t="leo.20190609214429.1" a="E"><vh>week12</vh>
+<v t="leo.20190609214442.1" a="E"><vh>week12</vh>
+<v t="leo.20190609214544.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609214559.1" a="E"><vh>week12</vh>
+<v t="leo.20190609214617.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609214559.2" a="E"><vh>week12</vh>
+<v t="leo.20190609214619.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20190609211057.1" a="E"><vh>week13</vh>
+<v t="leo.20190609211112.1"><vh>week13</vh>
 <v t="leo.20190609211142.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609211715.1" a="E"><vh>week14</vh>
+<v t="leo.20190609211715.1"><vh>week13</vh>
 <v t="leo.20190609211739.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609211716.1" a="E"><vh>week14</vh>
+<v t="leo.20190609211716.1" a="E"><vh>week13</vh>
 <v t="leo.20190609211741.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609212353.1" a="E"><vh>week14</vh>
+<v t="leo.20190609212353.1"><vh>week13</vh>
 <v t="leo.20190609212405.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609212454.1" a="E"><vh>week14</vh>
+<v t="leo.20190609212454.1"><vh>week13</vh>
 <v t="leo.20190609212521.1"><vh>newHeadline</vh></v>
 </v>
+</v>
+<v t="leo.20190609213937.1" a="E"><vh>week14</vh>
+<v t="leo.20190609214033.1" a="E"><vh>week14</vh>
+<v t="leo.20190609214041.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609214821.1" a="E"><vh>week14</vh>
+<v t="leo.20190609214847.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609214822.1" a="E"><vh>week14</vh>
+<v t="leo.20190609214848.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609214823.1" a="E"><vh>week14</vh>
+<v t="leo.20190609214850.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20190609213939.1" a="E"><vh>week15</vh>
+<v t="leo.20190609214050.1" a="E"><vh>week15</vh>
+<v t="leo.20190609214115.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20190609213941.1" a="E"><vh>week16</vh>
+<v t="leo.20190609214733.1"><vh>week16</vh></v>
 </v>
 <v t="leo.20190111010444.1"><vh>week11-12</vh>
 <v t="leo.20190111010805.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190111010632.1" a="E"><vh>week13</vh>
+<v t="leo.20190111010632.1"><vh>week13</vh>
 <v t="leo.20190111013624.1"><vh>newHeadline</vh></v>
 </v>
 <v t="leo.20190111010637.1"><vh>week14</vh>
@@ -598,73 +622,11 @@ make.start()
 &lt;img src="./../images/p37_11-05-18.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/p9VlI9k3Dag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
-<t tx="leo.20190609194544.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190609194601.1">### Week11-12
-
-* 零組件初步設計繪圖
-
-相關連結: 
-[參數設計與繪圖](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g5/content/%E5%8F%83%E6%95%B8%E8%A8%AD%E8%A8%88%E8%88%87%E7%B9%AA%E5%9C%96.html) 
-
-[Onshape](https://cad.onshape.com/documents/b86024bbac1d35dd70daf41a/w/a6d7bac71bfd288d512823ed/e/461bf805451f62fa39cf8f8b) </t>
-<t tx="leo.20190609204412.1">&lt;section&gt;
+<t tx="leo.20190609194544.1">&lt;section&gt;
 @others
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20190609204423.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190609204857.1">### week13
-
-* 零件部份組裝圖(Onshape)
-
-&lt;small&gt;
-球檯、球道、送球機構(圓盤)
-
-&lt;img src="./../images/部分組裝01.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-</t>
-<t tx="leo.20190609204938.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190609204949.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190609204958.1">&lt;small&gt;
-球桿、球員、把手
-
-&lt;img src="./../images/部分組裝02.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/9UL36SLyJF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20190609205009.1">&lt;small&gt;
-套筒
-
-&lt;img src="./../images/部分組裝03.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190609211057.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -679,7 +641,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190609211142.1">### week14
+<t tx="leo.20190609211142.1">### week13
 
 * 零組件簡易組合(Onshape)
 * 零件尺寸圖(Solidworks)
@@ -728,5 +690,160 @@ make.start()
 						
 </t>
 <t tx="leo.20190609212521.1">&lt;img src="./../images/工程圖03.jpg"height="492" width="750"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190609213937.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609213939.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609213941.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609214033.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214041.1">### week14
+
+* 手足球人與人對打程式編譯
+* 程式導入Vrep
+* 人與人對打vrep系統模擬
+
+</t>
+<t tx="leo.20190609214050.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214115.1"></t>
+<t tx="leo.20190609214429.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609214442.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214502.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214516.1">### Week11
+
+* 零組件初步設計繪圖
+
+相關連結: 
+[參數設計與繪圖](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g5/content/%E5%8F%83%E6%95%B8%E8%A8%AD%E8%A8%88%E8%88%87%E7%B9%AA%E5%9C%96.html) 
+
+[Onshape](https://cad.onshape.com/documents/b86024bbac1d35dd70daf41a/w/a6d7bac71bfd288d512823ed/e/461bf805451f62fa39cf8f8b) </t>
+<t tx="leo.20190609214544.1">### week12
+
+* 零件部份組裝圖(Onshape)
+
+&lt;small&gt;
+球檯、球道、送球機構(圓盤)
+
+&lt;img src="./../images/部分組裝01.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190609214559.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214559.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214617.1">&lt;small&gt;
+球桿、球員、把手
+
+&lt;img src="./../images/部分組裝02.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/9UL36SLyJF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609214619.1">&lt;small&gt;
+套筒
+
+&lt;img src="./../images/部分組裝03.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609214733.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214821.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214822.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214823.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609214847.1">#### 手足球人與人對打程式編譯
+
+&lt;img src="./../images/人人01.png" height="227" width="450"&gt;
+
+&lt;img src="./../images/人人02.png" height="227" width="450"&gt;</t>
+<t tx="leo.20190609214848.1">#### 程式導入Vrep
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/euH0pwnMVXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609214850.1">#### 人與人對打vrep系統模擬
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/76qiXPDBfKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>

@@ -22,8 +22,8 @@ KickBallV = 360
 Move_Minus =-0.1 
 Move_Plus =0.1
 n=1
-R_KickBallVel = (math.pi/180)*KickBallV
-B_KickBallVel = -(math.pi/180)*KickBallV
+R_KickBallVel = (math.pi/180)*KickBallV #順時針轉動
+B_KickBallVel = -(math.pi/180)*KickBallV #逆時針轉動
 if clientID!= -1:
 print("Connected to remote server")
 else:
@@ -37,40 +37,40 @@ errorCode,B1_handle=vrep.simxGetObjectHandle(clientID,'B1',vrep.simx_opmode_ones
 errorCode,P2_handle=vrep.simxGetObjectHandle(clientID,'P2',vrep.simx_opmode_oneshot_wait)
 errorCode,A2_handle=vrep.simxGetObjectHandle(clientID,'A2',vrep.simx_opmode_oneshot_wait)
 errorCode,R2_handle=vrep.simxGetObjectHandle(clientID,'R2',vrep.simx_opmode_oneshot_wait)
-errorCode,B2_handle=vrep.simxGetObjectHandle(clientID,'B2',vrep.simx_opmode_oneshot_wait)
+errorCode,B2_handle=vrep.simxGetObjectHandle(clientID,'B2',vrep.simx_opmode_oneshot_wait)　　 #指定物件
 #vrep.simxSetJointTargetVelocity(clientID,P1_handle,-6,vrep.simx_opmode_oneshot_wait)
 vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
 while True:
 try:
-if keyboard.is_pressed('w'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,R1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('x'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,R1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('a'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,P1_handle,0.1,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('s'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,P1_handle,0,vrep.simx_opmode_oneshot_wait)
+if keyboard.is_pressed('w'): #鍵盤w鍵
+errorCode = vrep.simxSetJointTargetVelocity(clientID,R1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)　 #給R１旋轉軸 順時針轉動
+elif keyboard.is_pressed('x'): #鍵盤x鍵
+errorCode = vrep.simxSetJointTargetVelocity(clientID,R1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait) #給R１旋轉軸 逆時針轉動 
+elif keyboard.is_pressed('a'): #鍵盤a鍵
+errorCode = vrep.simxSetJointTargetVelocity(clientID,P1_handle,0.1,vrep.simx_opmode_oneshot_wait) #給P１平移軸速度+０.１
+elif keyboard.is_pressed('s'): #鍵盤s鍵
+errorCode = vrep.simxSetJointTargetVelocity(clientID,P1_handle,0,vrep.simx_opmode_oneshot_wait) #給P１平移軸與R１旋轉軸速度０ 也就是停止
 errorCode = vrep.simxSetJointTargetVelocity(clientID,R1_handle,0,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('d'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,P1_handle,-0.1,vrep.simx_opmode_oneshot_wait)
-if keyboard.is_pressed('8'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,R2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('2'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,R2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait) 
-elif keyboard.is_pressed('6'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,P2_handle,0.1,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('5'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,P2_handle,0,vrep.simx_opmode_oneshot_wait)
+elif keyboard.is_pressed('d'): #鍵盤d鍵
+errorCode = vrep.simxSetJointTargetVelocity(clientID,P1_handle,-0.1,vrep.simx_opmode_oneshot_wait) #給P１平移軸速度-０.１
+if keyboard.is_pressed('8'): #鍵盤８
+errorCode = vrep.simxSetJointTargetVelocity(clientID,R2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait) #給R２旋轉軸 順時針轉動
+elif keyboard.is_pressed('2'): #鍵盤２
+errorCode = vrep.simxSetJointTargetVelocity(clientID,R2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait) #給R２旋轉軸 逆時針轉動
+elif keyboard.is_pressed('6'): #鍵盤６
+errorCode = vrep.simxSetJointTargetVelocity(clientID,P2_handle,0.1,vrep.simx_opmode_oneshot_wait)　　　　　　　 #給P２平移軸速度+０.１
+elif keyboard.is_pressed('5'): #鍵盤５
+errorCode = vrep.simxSetJointTargetVelocity(clientID,P2_handle,0,vrep.simx_opmode_oneshot_wait) #給P２平移軸與R２旋轉軸速度０ 也就是停止
 errorCode = vrep.simxSetJointTargetVelocity(clientID,R2_handle,0,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('4'): 
-errorCode = vrep.simxSetJointTargetVelocity(clientID,P2_handle,-0.1,vrep.simx_opmode_oneshot_wait)
+elif keyboard.is_pressed('4'): #鍵盤４
+errorCode = vrep.simxSetJointTargetVelocity(clientID,P2_handle,-0.1,vrep.simx_opmode_oneshot_wait) #給P２平移軸速度-０.１
 else:
 pass
 except:
 break
 
 #vrep.simxStopSimulation(clientID,vrep.simx_opmode_oneshot_wait)</pre>
-<p><br/><br/></p>
+<p></p>
 <h3>手足球人機對打</h3>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/DljsFfwH-B0" width="560"></iframe></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import vrep
@@ -83,12 +83,12 @@ import keyboard
 vrep.simxFinish(-1)
 
 clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
-KickBallV = 360
-Move_Minus =-1 
-Move_Plus =1
+KickBallV = 360 
+Move_Minus =-0.1 
+Move_Plus =0.1
 n=1
-R_KickBallVel = (math.pi/180)*KickBallV
-B_KickBallVel = -(math.pi/180)*KickBallV
+R_KickBallVel = (math.pi/180)*KickBallV #順時針轉動
+B_KickBallVel = -(math.pi/180)*KickBallV #逆時針轉動
 if clientID!= -1:
 print("Connected to remote server")
 else:
@@ -103,7 +103,7 @@ errorCode,B1_handle=vrep.simxGetObjectHandle(clientID,'B1',vrep.simx_opmode_ones
 errorCode,P2_handle=vrep.simxGetObjectHandle(clientID,'P2',vrep.simx_opmode_oneshot_wait)
 errorCode,A2_handle=vrep.simxGetObjectHandle(clientID,'A2',vrep.simx_opmode_oneshot_wait)
 errorCode,R2_handle=vrep.simxGetObjectHandle(clientID,'R2',vrep.simx_opmode_oneshot_wait)
-errorCode,B2_handle=vrep.simxGetObjectHandle(clientID,'B2',vrep.simx_opmode_oneshot_wait)
+errorCode,B2_handle=vrep.simxGetObjectHandle(clientID,'B2',vrep.simx_opmode_oneshot_wait) #指定物件
 
 if errorCode == -1:
 print('Can not find left or right motor')
@@ -118,56 +118,57 @@ def pause():
 errorCode = vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
 
 def getballposition():
-errorCode,position_A1R=vrep.simxGetObjectPosition(clientID,A1_handle,-1,vrep.simx_opmode_oneshot)
-errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
-A1v=position_S[1] - position_A1R[1]
-AA1v=position_S[0] - position_A1R[0]
+errorCode,position_A1R=vrep.simxGetObjectPosition(clientID,A1_handle,-1,vrep.simx_opmode_oneshot) #指定A１桿子的代號
+errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot) #指定球的代號
+A1v=position_S[1] - position_A1R[1] #設定一代號A１v 等於 球的Y軸位置 - 桿子的Y軸位置
+AA1v=position_S[0] - position_A1R[0] #設定一代號AA１v 等於 球的X軸位置 - 桿子的X軸位置
 while True:
-if A1v &lt;= 0 and AA1v &lt;= 0.015:
-errorCode,position_A1R=vrep.simxGetObjectPosition(clientID,A1_handle,-1,vrep.simx_opmode_oneshot)
+if A1v &lt;= 0 and AA1v &lt;= 0.023: #當Y軸位置&lt;=０ , X軸位置&lt;=０.０２３　　　會執行以下程式
+errorCode,position_A1R=vrep.simxGetObjectPosition(clientID,A1_handle,-1,vrep.simx_opmode_oneshot) 
 errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
 A1v =position_S[1]- position_A1R[1]
 AA1v =position_S[0] - position_A1R[0]
-vrep.simxSetJointTargetVelocity(clientID,R1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,R1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)　　#給R１旋轉軸 順時針轉動
 
-elif A1v &gt; 0 and AA1v &lt;= 0.015:
+elif A1v &gt; 0 and AA1v &lt;= 0.023:　　　#當Y軸位置&gt;０ , X軸位置&lt;=０.０２３
 errorCode,position_A1R=vrep.simxGetObjectPosition(clientID,A1_handle,-1,vrep.simx_opmode_oneshot)
 errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
 A1v =position_S[1]- position_A1R[1]
 AA1v =position_S[0] - position_A1R[0]
-vrep.simxSetJointTargetVelocity(clientID,R1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,R1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait) #給R１旋轉軸 順時針轉動
 
-elif A1v &lt;= 0 and AA1v &gt; 0.015:
+elif A1v &lt;= 0 and AA1v &gt; 0.023: #當Y軸位置&lt;=０ , X軸位置&gt;０.０２３
 errorCode,position_A1R=vrep.simxGetObjectPosition(clientID,A1_handle,-1,vrep.simx_opmode_oneshot)
 errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
 A1v =position_S[1]- position_A1R[1]
 AA1v =position_S[0] - position_A1R[0]
-vrep.simxSetJointTargetVelocity(clientID,R1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,R1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait) #給R１旋轉軸 逆時針轉動
 
-elif A1v &gt; 0 and AA1v &gt; 0.015:
+elif A1v &gt; 0 and AA1v &gt; 0.023: #當Y軸位置&gt;０ , X軸位置&gt;０.０２３
 errorCode,position_A1R=vrep.simxGetObjectPosition(clientID,A1_handle,-1,vrep.simx_opmode_oneshot)
 errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
 A1v =position_S[1]- position_A1R[1]
 AA1v =position_S[0] - position_A1R[0]
-vrep.simxSetJointTargetVelocity(clientID,R1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,R1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait) #給R１旋轉軸 逆時針轉動
 
 try:
-if keyboard.is_pressed('w'): 
-vrep.simxSetJointTargetVelocity(clientID,R2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('x'): 
-vrep.simxSetJointTargetVelocity(clientID,R2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('d'): 
-vrep.simxSetJointTargetVelocity(clientID,P2_handle,1,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('s'):
-vrep.simxSetJointTargetVelocity(clientID,P2_handle,0,vrep.simx_opmode_oneshot_wait)
-elif keyboard.is_pressed('a'): 
-vrep.simxSetJointTargetVelocity(clientID,P2_handle,-1,vrep.simx_opmode_oneshot_wait)
+if keyboard.is_pressed('w'): #鍵盤w鍵
+vrep.simxSetJointTargetVelocity(clientID,R2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait) #給R２旋轉軸 順時針轉動
+elif keyboard.is_pressed('x'): #鍵盤x鍵
+vrep.simxSetJointTargetVelocity(clientID,R2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait) #給R２旋轉軸 逆時針轉動
+elif keyboard.is_pressed('d'): #鍵盤d鍵
+vrep.simxSetJointTargetVelocity(clientID,P2_handle,0.1,vrep.simx_opmode_oneshot_wait) 　#給P２平移軸速度+０.１
+elif keyboard.is_pressed('s'): #鍵盤s鍵
+vrep.simxSetJointTargetVelocity(clientID,P2_handle,0,vrep.simx_opmode_oneshot_wait)　　　#給P２平移軸與R２旋轉軸速度０ 也就是停止
+vrep.simxSetJointTargetVelocity(clientID,R2_handle,0,vrep.simx_opmode_oneshot_wait)
+elif keyboard.is_pressed('a'): #鍵盤a鍵
+vrep.simxSetJointTargetVelocity(clientID,P2_handle,-0.1,vrep.simx_opmode_oneshot_wait)　 #給P２平移軸速度-０.１
 else:
 pass
 except:
 break
 
-MMMB = A1v*2
+MMMB = A1v*-2　
 vrep.simxSetJointTargetVelocity(clientID,P1_handle,MMMB,vrep.simx_opmode_oneshot_wait)
 
 vrep.simxSetJointTargetVelocity(clientID,R1_handle,0,vrep.simx_opmode_oneshot_wait)
@@ -176,7 +177,7 @@ vrep.simxSetJointTargetVelocity(clientID,P2_handle,0,vrep.simx_opmode_oneshot_wa
 start()
 getballposition()
 stop()</pre>
-<p></p>
+<p><br/><br/></p>
 <h3>手足球電腦對電腦</h3>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/1RBVWGq7kUg" width="560"></iframe></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import vrep
@@ -252,7 +253,6 @@ getballposition()</pre>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/1xB8w9Y1sR8" width="560"></iframe></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/9UL36SLyJF8" width="560"></iframe></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/laecXt_xsEo" width="560"></iframe></p>
-<h2>問題與解決</h2>
 <h1>2018</h1>
 <h2>簡介</h2>
 <p>2018 Fall 計算機程式與電腦輔助設計實習課程分組網站</p>

@@ -24,10 +24,10 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190609194544.1" a="E"><vh>week11</vh>
+<v t="leo.20190609194544.1"><vh>week11</vh>
 <v t="leo.20190609214502.1" a="E"><vh>week11</vh>
 <v t="leo.20190609214516.1"><vh>newHeadline</vh></v>
 </v>
@@ -43,7 +43,7 @@
 <v t="leo.20190609214619.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20190609211057.1" a="E"><vh>week13</vh>
+<v t="leo.20190609211057.1"><vh>week13</vh>
 <v t="leo.20190609211112.1" a="E"><vh>week13</vh>
 <v t="leo.20190609211142.1"><vh>newHeadline</vh></v>
 </v>
@@ -60,7 +60,7 @@
 <v t="leo.20190609212521.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20190609213937.1" a="E"><vh>week14</vh>
+<v t="leo.20190609213937.1"><vh>week14</vh>
 <v t="leo.20190609214033.1" a="E"><vh>week14</vh>
 <v t="leo.20190609214041.1"><vh>newHeadline</vh></v>
 </v>
@@ -100,6 +100,11 @@
 </v>
 <v t="leo.20190609221302.3" a="E"><vh>week16</vh>
 <v t="leo.20190609221529.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20190609221925.1"><vh>newHeadline</vh>
+<v t="leo.20190609221932.1"><vh>newHeadline</vh>
+<v t="leo.20190609221942.1"><vh>newHeadline</vh></v>
 </v>
 </v>
 <v t="leo.20190111010444.1"><vh>week11-12</vh>
@@ -954,5 +959,19 @@ make.start()
 <t tx="leo.20190609221529.1">#### 電腦與電腦對打vrep系統模擬
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5TChKZzyEPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609221925.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609221932.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+		</t>
+<t tx="leo.20190609221942.1"></t>
 </tnodes>
 </leo_file>

@@ -27,28 +27,42 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190111010444.1" a="E"><vh>week11-12</vh>
+<v t="leo.20190609194544.1" a="E"><vh>week11-12</vh>
+<v t="leo.20190609194601.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609204412.1"><vh>week13</vh>
+<v t="leo.20190609204423.1" a="E"><vh>week13</vh>
+<v t="leo.20190609204857.1"><vh>01</vh></v>
+</v>
+<v t="leo.20190609204938.1" a="E"><vh>week13</vh>
+<v t="leo.20190609204958.1"><vh>02</vh></v>
+</v>
+<v t="leo.20190609204949.1" a="E"><vh>week13</vh>
+<v t="leo.20190609205009.1"><vh>03</vh></v>
+</v>
+</v>
+<v t="leo.20190111010444.1"><vh>week11-12</vh>
 <v t="leo.20190111010805.1"><vh>newHeadline</vh></v>
 </v>
 <v t="leo.20190111010632.1" a="E"><vh>week13</vh>
 <v t="leo.20190111013624.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190111010637.1" a="E"><vh>week14</vh>
+<v t="leo.20190111010637.1"><vh>week14</vh>
 <v t="leo.20190111015233.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190111023754.1" a="E"><vh>newHeadline</vh>
+<v t="leo.20190111023754.1"><vh>newHeadline</vh>
 <v t="leo.20190111023808.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190111010642.1" a="E"><vh>week15</vh>
+<v t="leo.20190111010642.1"><vh>week15</vh>
 <v t="leo.20190111021606.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190111010650.1" a="E"><vh>week16</vh>
+<v t="leo.20190111010650.1"><vh>week16</vh>
 <v t="leo.20190111022229.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190111010657.1" a="E"><vh>week17</vh>
+<v t="leo.20190111010657.1"><vh>week17</vh>
 <v t="leo.20190111022508.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190111023349.1" a="E"><vh>final</vh>
+<v t="leo.20190111023349.1"><vh>final</vh>
 <v t="leo.20190111023406.1"><vh>newHeadline</vh></v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
@@ -65,8 +79,8 @@
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20181102234540.1" a="E"><vh>week1</vh>
-<v t="leo.20181102234704.1" a="E"><vh>管理個人的期中作業網站內容</vh>
+<v t="leo.20181102234540.1"><vh>week1</vh>
+<v t="leo.20181102234704.1"><vh>管理個人的期中作業網站內容</vh>
 <v t="leo.20181103001148.1"><vh>newHeadline</vh></v>
 </v>
 <v t="leo.20181103001254.1"><vh>管理個人的期中作業網站內容</vh>
@@ -164,21 +178,18 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
+<t tx="leo.20180827201621.10">## 期末協同產品設計簡報
 
 ### 虎科大機械設計工程系
 
 &lt;middle&gt;
 設計二甲 40623154 黃馨慧
-&lt;/middle&gt;
 
-&lt;small&gt;
-Created by [40623154](http://lab.kmol.info/)
-&lt;/small&gt;
+* [網站](https://mdecadp2018.github.io/site-40623154/content/index.html)
 
-[2018 Fall 網誌](./../blog/index.html)
+* [倉儲](https://github.com/mdecadp2018/site-40623154)
 
-
+* [小組倉儲](https://github.com/mdekmol/cd2019a-task1-2019cda_t1_g5)
 </t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -502,12 +513,13 @@ make.start()
 
 * 相關網址: [線性滑塊](https://tw.misumi-ec.com/vona2/detail/110302734840/)
 
-&lt;img src="./../images/p37_11-55-04.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/Pg50vbbxH-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;img src="./../images/p37_11-55-04.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="252" src="https://www.youtube.com/embed/Pg50vbbxH-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20190111015233.1">### Week14
 
 * 繪製線材
+
 
 &lt;img src="./../images/p37_10-46-58.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/bN-CSaM9cWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -518,21 +530,27 @@ make.start()
 
 * 相關網址: [光軸固定座](https://tw.misumi-ec.com/vona2/detail/110300013850/?HissuCode=SHF16)
 
-&lt;img src="./../images/p37_11-49-57.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/majIuWF4c8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;img src="./../images/p37_11-49-57.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/majIuWF4c8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190111022229.1">### Week16
 
 * 繪製惰輪2GT
 
 * 相關網址: [惰輪2GT](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE&amp;fbclid=IwAR1U1ltAM9fe_vtsuLzE6tUAKzem5GaqVjzFAY6iXQcYTL4eR3hgLq7a5Co)
 
-&lt;img src="./../images/p37_11-23-29.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/Lz03HH2xNQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;img src="./../images/p37_11-23-29.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/Lz03HH2xNQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190111022508.1">### Week17
 
 * 繪製下馬達固定座
 
 * 編輯PDF
 
-&lt;img src="./../images/p37_02-25-17.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="430" height="300" src="https://www.youtube.com/embed/aATI8fJRzWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;img src="./../images/p37_02-25-17.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="430" height="300" src="https://www.youtube.com/embed/aATI8fJRzWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190111023349.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -544,7 +562,9 @@ make.start()
 </t>
 <t tx="leo.20190111023406.1">### 期末心得
 
-經過這一整個學期的學習，學會了Onshape的基本功能，遇到難題，組員之間互相討論並解決問題，這讓我知道組員們之間的溝通是很重要的。團隊如果分工得好，各自發揮所長完成自己的工作，以縮短工作時間。不同專長的工作者，在同一件事情上，可以創造截然不同的價值也能互相支援。雖然我們最後沒有做到很完美，但不論結果是如何，最重要的是體驗在過程中的樂趣與成就。</t>
+經過這一整個學期的學習，學會了Onshape的基本功能，遇到難題，組員之間互相討論並解決問題，這讓我知道組員們之間的溝通是很重要的。團隊如果分工得好，各自發揮所長完成自己的工作，以縮短工作時間。不同專長的工作者，在同一件事情上，可以創造截然不同的價值也能互相支援。雖然我們最後沒有做到很完美，但不論結果是如何，最重要的是體驗在過程中的樂趣與成就。
+
+</t>
 <t tx="leo.20190111023754.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -558,6 +578,75 @@ make.start()
 
 * 繪製套筒
 
-&lt;img src="./../images/p37_11-05-18.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/p9VlI9k3Dag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;img src="./../images/p37_11-05-18.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/p9VlI9k3Dag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190609194544.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609194601.1">### Week11-12
+
+* 零組件初步設計繪圖
+
+相關連結: 
+[參數設計與繪圖](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g5/content/%E5%8F%83%E6%95%B8%E8%A8%AD%E8%A8%88%E8%88%87%E7%B9%AA%E5%9C%96.html) 
+
+[Onshape](https://cad.onshape.com/documents/b86024bbac1d35dd70daf41a/w/a6d7bac71bfd288d512823ed/e/461bf805451f62fa39cf8f8b) </t>
+<t tx="leo.20190609204412.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609204423.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609204857.1">### week13
+
+* 零件部份組裝圖(Onshape)
+
+&lt;small&gt;
+球檯、球道、送球機構(圓盤)
+
+&lt;img src="./../images/部分組裝01.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/1xB8w9Y1sR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20190609204938.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609204949.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609204958.1">&lt;small&gt;
+球桿、球員、把手
+
+&lt;img src="./../images/部分組裝02.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/9UL36SLyJF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609205009.1">&lt;small&gt;
+套筒
+
+&lt;img src="./../images/部分組裝03.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>

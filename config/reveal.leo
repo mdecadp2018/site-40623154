@@ -43,7 +43,7 @@
 <v t="leo.20190609214619.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20190609211057.1"><vh>week13</vh>
+<v t="leo.20190609211057.1" a="E"><vh>week13</vh>
 <v t="leo.20190609211112.1" a="E"><vh>week13</vh>
 <v t="leo.20190609211142.1"><vh>newHeadline</vh></v>
 </v>
@@ -58,6 +58,9 @@
 </v>
 <v t="leo.20190609212454.1" a="E"><vh>week13</vh>
 <v t="leo.20190609212521.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190610025152.1" a="E"><vh>week13</vh>
+<v t="leo.20190610025202.1"><vh>newHeadline</vh></v>
 </v>
 </v>
 <v t="leo.20190609213937.1"><vh>week14</vh>
@@ -102,6 +105,11 @@
 <v t="leo.20190609221529.1"><vh>newHeadline</vh></v>
 </v>
 </v>
+<v t="leo.20190610022731.1"><vh>自評</vh>
+<v t="leo.20190610022743.1" a="E"><vh>自評</vh>
+<v t="leo.20190610022801.1"><vh>newHeadline</vh></v>
+</v>
+</v>
 <v t="leo.20190609221925.1"><vh>newHeadline</vh>
 <v t="leo.20190609221932.1"><vh>newHeadline</vh>
 <v t="leo.20190609221942.1"><vh>newHeadline</vh></v>
@@ -131,14 +139,14 @@
 <v t="leo.20190111023349.1"><vh>final</vh>
 <v t="leo.20190111023406.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
+<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
 <v t="leo.20180827201621.18"><vh>導入影片</vh>
@@ -587,6 +595,7 @@ make.start()
 * 繪製線材
 
 
+
 &lt;img src="./../images/p37_10-46-58.png" height="300" width="450"&gt;&lt;/img&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/bN-CSaM9cWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
@@ -691,10 +700,14 @@ make.start()
 </t>
 <t tx="leo.20190609211739.1">#### 零組件簡易組合
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/0dQfQbLJycg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/0dQfQbLJycg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609211741.1">#### 零件尺寸圖(工程圖)
 
-&lt;img src="./../images/工程圖01.png"height="492" width="750"&gt;&lt;/img&gt;</t>
+&lt;img src="./../images/工程圖01.png"height="492" width="750"&gt;&lt;/img&gt;
+
+</t>
 <t tx="leo.20190609212353.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -704,7 +717,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190609212405.1">&lt;img src="./../images/工程圖02.png"height="492" width="750"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190609212405.1">&lt;img src="./../images/工程圖02.png"height="492" width="750"&gt;&lt;/img&gt;
+
+</t>
 <t tx="leo.20190609212454.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -714,7 +729,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190609212521.1">&lt;img src="./../images/工程圖03.png"height="492" width="750"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190609212521.1">&lt;img src="./../images/工程圖03.png"height="492" width="750"&gt;&lt;/img&gt;
+
+</t>
 <t tx="leo.20190609213937.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -792,7 +809,9 @@ make.start()
 相關連結: 
 [參數設計與繪圖](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g5/content/%E5%8F%83%E6%95%B8%E8%A8%AD%E8%A8%88%E8%88%87%E7%B9%AA%E5%9C%96.html) 
 
-[Onshape](https://cad.onshape.com/documents/b86024bbac1d35dd70daf41a/w/a6d7bac71bfd288d512823ed/e/461bf805451f62fa39cf8f8b) </t>
+[Onshape](https://cad.onshape.com/documents/b86024bbac1d35dd70daf41a/w/a6d7bac71bfd288d512823ed/e/461bf805451f62fa39cf8f8b) 
+
+</t>
 <t tx="leo.20190609214544.1">### week12
 
 * 零件部份組裝圖(Onshape)
@@ -824,11 +843,15 @@ make.start()
 <t tx="leo.20190609214617.1">&lt;small&gt;
 球桿、球員、把手
 
-&lt;img src="./../images/部分組裝02.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/9UL36SLyJF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;img src="./../images/部分組裝02.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/9UL36SLyJF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609214619.1">&lt;small&gt;
 套筒
 
-&lt;img src="./../images/部分組裝03.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;img src="./../images/部分組裝03.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609214733.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -869,13 +892,19 @@ make.start()
 
 &lt;img src="./../images/人人01.png" height="227" width="450"&gt;
 
-&lt;img src="./../images/人人02.png" height="227" width="450"&gt;</t>
+&lt;img src="./../images/人人02.png" height="227" width="450"&gt;
+
+</t>
 <t tx="leo.20190609214848.1">#### 程式導入Vrep
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/euH0pwnMVXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/euH0pwnMVXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609214850.1">#### 人與人對打vrep系統模擬
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/76qiXPDBfKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/76qiXPDBfKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609220946.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -907,13 +936,19 @@ make.start()
 
 &lt;img src="./../images/人機01.png" height="227" width="450"&gt;
 &lt;img src="./../images/人機02.png" height="227" width="450"&gt;
-&lt;img src="./../images/人機03.png" height="227" width="450"&gt;</t>
+&lt;img src="./../images/人機03.png" height="227" width="450"&gt;
+
+</t>
 <t tx="leo.20190609221012.1">#### 程式導入Vrep
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DljsFfwH-B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DljsFfwH-B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609221014.1">#### 人機對打vrep系統模擬
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tvlqkPxQc-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tvlqkPxQc-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609221257.1">### week16
 
 * 手足球電腦與電腦對打程式編譯
@@ -952,13 +987,19 @@ make.start()
 
 &lt;img src="./../images/電腦01.png" height="227" width="450"&gt;
 
-&lt;img src="./../images/電腦02.png" height="227" width="450"&gt;</t>
+&lt;img src="./../images/電腦02.png" height="227" width="450"&gt;
+
+</t>
 <t tx="leo.20190609221502.1">#### 程式導入Vrep
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1RBVWGq7kUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1RBVWGq7kUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609221529.1">#### 電腦與電腦對打vrep系統模擬
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5TChKZzyEPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5TChKZzyEPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20190609221925.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -971,7 +1012,47 @@ make.start()
 &lt;/section&gt;
 
 
-		</t>
+		
+
+</t>
 <t tx="leo.20190609221942.1"></t>
+<t tx="leo.20190610022731.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190610022743.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610022801.1">### 自評
+
+&lt;samll&gt;
+* 學員出席 (20%) 20
+
+* Github 倉儲管理  (20%) 10
+
+* Onshape 協同操作 (20%) 12
+
+* V-rep 模擬 (20%) 10
+
+* 程式開發 (20%) 10
+</t>
+<t tx="leo.20190610025152.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610025202.1">&lt;img src="./../images/工程圖04.png"height="492" width="750"&gt;&lt;/img&gt;
+</t>
 </tnodes>
 </leo_file>

@@ -27,10 +27,10 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190609194544.1" a="E"><vh>week11-12</vh>
+<v t="leo.20190609194544.1"><vh>week11-12</vh>
 <v t="leo.20190609194601.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609204412.1"><vh>week13</vh>
+<v t="leo.20190609204412.1" a="E"><vh>week13</vh>
 <v t="leo.20190609204423.1" a="E"><vh>week13</vh>
 <v t="leo.20190609204857.1"><vh>01</vh></v>
 </v>
@@ -39,6 +39,23 @@
 </v>
 <v t="leo.20190609204949.1" a="E"><vh>week13</vh>
 <v t="leo.20190609205009.1"><vh>03</vh></v>
+</v>
+</v>
+<v t="leo.20190609211057.1" a="E"><vh>week14</vh>
+<v t="leo.20190609211112.1" a="E"><vh>week14</vh>
+<v t="leo.20190609211142.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609211715.1" a="E"><vh>week14</vh>
+<v t="leo.20190609211739.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609211716.1" a="E"><vh>week14</vh>
+<v t="leo.20190609211741.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609212353.1" a="E"><vh>week14</vh>
+<v t="leo.20190609212405.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609212454.1" a="E"><vh>week14</vh>
+<v t="leo.20190609212521.1"><vh>newHeadline</vh></v>
 </v>
 </v>
 <v t="leo.20190111010444.1"><vh>week11-12</vh>
@@ -648,5 +665,68 @@ make.start()
 套筒
 
 &lt;img src="./../images/部分組裝03.png" height="227" width="450"&gt;&lt;/img&gt; &lt;iframe width="450" height="252" src="https://www.youtube.com/embed/laecXt_xsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609211057.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609211112.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609211142.1">### week14
+
+* 零組件簡易組合(Onshape)
+* 零件尺寸圖(Solidworks)
+</t>
+<t tx="leo.20190609211715.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609211716.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609211739.1">#### 零組件簡易組合
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/0dQfQbLJycg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609211741.1">#### 零件尺寸圖(工程圖)
+
+&lt;img src="./../images/工程圖01.jpg"height="492" width="750"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190609212353.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609212405.1">&lt;img src="./../images/工程圖02.jpg"height="492" width="750"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190609212454.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609212521.1">&lt;img src="./../images/工程圖03.jpg"height="492" width="750"&gt;&lt;/img&gt;</t>
 </tnodes>
 </leo_file>

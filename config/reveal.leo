@@ -24,7 +24,7 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190609194544.1"><vh>week11</vh>
@@ -43,7 +43,7 @@
 <v t="leo.20190609214619.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20190609211057.1" a="E"><vh>week13</vh>
+<v t="leo.20190609211057.1"><vh>week13</vh>
 <v t="leo.20190609211112.1" a="E"><vh>week13</vh>
 <v t="leo.20190609211142.1"><vh>newHeadline</vh></v>
 </v>
@@ -252,17 +252,14 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 期末協同產品設計簡報
+<t tx="leo.20180827201621.10">### 協同產品設計期末簡報
 
-### 虎科大機械設計工程系
+#### 虎科大機械設計工程系
 
-&lt;middle&gt;
-設計二甲 40623154 黃馨慧
+##### 40623154
 
 * [網站](https://mdecadp2018.github.io/site-40623154/content/index.html)
-
 * [倉儲](https://github.com/mdecadp2018/site-40623154)
-
 * [小組倉儲](https://github.com/mdekmol/cd2019a-task1-2019cda_t1_g5)
 </t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;

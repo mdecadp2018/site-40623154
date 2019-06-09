@@ -32,7 +32,7 @@
 <v t="leo.20190609214516.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20190609214429.1" a="E"><vh>week12</vh>
+<v t="leo.20190609214429.1"><vh>week12</vh>
 <v t="leo.20190609214442.1" a="E"><vh>week12</vh>
 <v t="leo.20190609214544.1"><vh>newHeadline</vh></v>
 </v>
@@ -44,19 +44,19 @@
 </v>
 </v>
 <v t="leo.20190609211057.1" a="E"><vh>week13</vh>
-<v t="leo.20190609211112.1"><vh>week13</vh>
+<v t="leo.20190609211112.1" a="E"><vh>week13</vh>
 <v t="leo.20190609211142.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609211715.1"><vh>week13</vh>
+<v t="leo.20190609211715.1" a="E"><vh>week13</vh>
 <v t="leo.20190609211739.1"><vh>newHeadline</vh></v>
 </v>
 <v t="leo.20190609211716.1" a="E"><vh>week13</vh>
 <v t="leo.20190609211741.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609212353.1"><vh>week13</vh>
+<v t="leo.20190609212353.1" a="E"><vh>week13</vh>
 <v t="leo.20190609212405.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609212454.1"><vh>week13</vh>
+<v t="leo.20190609212454.1" a="E"><vh>week13</vh>
 <v t="leo.20190609212521.1"><vh>newHeadline</vh></v>
 </v>
 </v>
@@ -74,13 +74,33 @@
 <v t="leo.20190609214850.1"><vh>newHeadline</vh></v>
 </v>
 </v>
-<v t="leo.20190609213939.1" a="E"><vh>week15</vh>
+<v t="leo.20190609213939.1"><vh>week15</vh>
 <v t="leo.20190609214050.1" a="E"><vh>week15</vh>
 <v t="leo.20190609214115.1"><vh>newHeadline</vh></v>
 </v>
+<v t="leo.20190609220946.1" a="E"><vh>week15</vh>
+<v t="leo.20190609221011.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20190609213941.1" a="E"><vh>week16</vh>
-<v t="leo.20190609214733.1"><vh>week16</vh></v>
+<v t="leo.20190609220955.1" a="E"><vh>week15</vh>
+<v t="leo.20190609221012.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609220959.1" a="E"><vh>week15</vh>
+<v t="leo.20190609221014.1"><vh>newHeadline</vh></v>
+</v>
+</v>
+<v t="leo.20190609213941.1"><vh>week16</vh>
+<v t="leo.20190609214733.1" a="E"><vh>week16</vh>
+<v t="leo.20190609221257.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609221302.1" a="E"><vh>week16</vh>
+<v t="leo.20190609221424.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609221302.2" a="E"><vh>week16</vh>
+<v t="leo.20190609221502.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20190609221302.3" a="E"><vh>week16</vh>
+<v t="leo.20190609221529.1"><vh>newHeadline</vh></v>
+</v>
 </v>
 <v t="leo.20190111010444.1"><vh>week11-12</vh>
 <v t="leo.20190111010805.1"><vh>newHeadline</vh></v>
@@ -669,7 +689,7 @@ make.start()
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/0dQfQbLJycg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20190609211741.1">#### 零件尺寸圖(工程圖)
 
-&lt;img src="./../images/工程圖01.jpg"height="492" width="750"&gt;&lt;/img&gt;</t>
+&lt;img src="./../images/工程圖01.png"height="492" width="750"&gt;&lt;/img&gt;</t>
 <t tx="leo.20190609212353.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -679,7 +699,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190609212405.1">&lt;img src="./../images/工程圖02.jpg"height="492" width="750"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190609212405.1">&lt;img src="./../images/工程圖02.png"height="492" width="750"&gt;&lt;/img&gt;</t>
 <t tx="leo.20190609212454.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -689,7 +709,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190609212521.1">&lt;img src="./../images/工程圖03.jpg"height="492" width="750"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190609212521.1">&lt;img src="./../images/工程圖03.png"height="492" width="750"&gt;&lt;/img&gt;</t>
 <t tx="leo.20190609213937.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -730,7 +750,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190609214115.1"></t>
+<t tx="leo.20190609214115.1">### week15
+
+* 手足球人機對打程式編譯
+* 程式導入Vrep
+* 人機對打vrep系統模擬
+
+</t>
 <t tx="leo.20190609214429.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -845,5 +871,88 @@ make.start()
 <t tx="leo.20190609214850.1">#### 人與人對打vrep系統模擬
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/76qiXPDBfKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609220946.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609220955.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609220959.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609221011.1">#### 手足球人機對打程式編譯
+
+&lt;img src="./../images/人機01.png" height="227" width="450"&gt;
+&lt;img src="./../images/人機02.png" height="227" width="450"&gt;
+&lt;img src="./../images/人機03.png" height="227" width="450"&gt;</t>
+<t tx="leo.20190609221012.1">#### 程式導入Vrep
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DljsFfwH-B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609221014.1">#### 人機對打vrep系統模擬
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tvlqkPxQc-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609221257.1">### week16
+
+* 手足球電腦與電腦對打程式編譯
+* 程式導入Vrep
+* 電腦與電腦對打vrep系統模擬
+
+</t>
+<t tx="leo.20190609221302.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609221302.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609221302.3">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190609221424.1">#### 手足球電腦與電腦對打程式編譯
+
+&lt;img src="./../images/電腦01.png" height="227" width="450"&gt;
+
+&lt;img src="./../images/電腦02.png" height="227" width="450"&gt;</t>
+<t tx="leo.20190609221502.1">#### 程式導入Vrep
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1RBVWGq7kUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190609221529.1">#### 電腦與電腦對打vrep系統模擬
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5TChKZzyEPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>

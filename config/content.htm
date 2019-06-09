@@ -229,15 +229,15 @@ RR =position_S[1] - position_RR[1] #左右
 RRR =position_S[0] - position_RR[0]#前後
 print(position_S)
 if BBB &gt;0.02:
-speed(R1_handle, B_KickBallVel)
+speed(R1_handle, B_KickBallVel) #給R１旋轉軸 逆時針轉動
 elif BBB &lt;= 0.02:
-speed(R1_handle, R_KickBallVel)
+speed(R1_handle, R_KickBallVel) #給R１旋轉軸 順時針轉動
 else:
 pass
 if RRR &gt;-0.02:
-speed(R2_handle, R_KickBallVel)
+speed(R2_handle, R_KickBallVel) #給R２旋轉軸 順時針轉動
 elif RRR &lt;= -0.02:
-speed(R2_handle, B_KickBallVel)
+speed(R2_handle, B_KickBallVel) #給R２旋轉軸 逆時針轉動
 else:
 pass
 Mv = BB*-1.5
@@ -245,7 +245,7 @@ Mvv = RR*1.5
 vrep.simxSetJointTargetVelocity(clientID,P1_handle,Mv,vrep.simx_opmode_oneshot_wait)
 vrep.simxSetJointTargetVelocity(clientID,P2_handle,Mvv,vrep.simx_opmode_oneshot_wait)
 getballposition()</pre>
-<p></p>
+<p><br/><br/></p>
 <h2>Onshape操作影片</h2>
 <p>組合影片</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/0dQfQbLJycg" width="560"></iframe></p>
